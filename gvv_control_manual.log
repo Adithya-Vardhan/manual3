@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.7)  8 APR 2020 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.7)  8 APR 2020 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,7 +996,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 
 LaTeX Warning: Reference `prob:ee18btech11005_python' on page 1 undefined on in
-put line 15.
+put line 79.
 
 
 ! LaTeX Error: Environment lstlisting undefined.
@@ -1005,7 +1005,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin{lstlisting}
+l.84 \begin{lstlisting}
                        
 ? 
 
@@ -1015,20 +1015,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \end{lstlisting}
+l.86 \end{lstlisting}
                      
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--25
+Underfull \hbox (badness 10000) in paragraph at lines 81--89
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The fol-low-ing code
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--25
+Underfull \hbox (badness 10000) in paragraph at lines 81--89
 \OT1/txr/m/n/12 codes/ee18btech11008/ee18btech11008.py
  []
 
 ) [1
+
+] [2
 
 ] (./gvv_control_manual.aux)
 
@@ -1042,6 +1044,6 @@ Here is how much of TeX's memory you used:
  27157 multiletter control sequences out of 15000+600000
  54754 words of font info for 123 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 55i,15n,67p,510b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,67p,510b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_control_manual.dvi (1 page, 12100 bytes).
+Output written on gvv_control_manual.dvi (2 pages, 12252 bytes).

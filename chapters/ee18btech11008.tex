@@ -7,22 +7,10 @@ The characteristic equation of linear time invariant system is given by
 \end{align}
 Find the condition for the system to be BIBO stable using the Routh Array.
 
-\item \textbf{solution}
+\textbf{solution}
 \begin{align}
 \nabla(s)=s^4+3s^3+3s^2+s+k=0
 \end{align}
-
-\item Modify the Python code in Problem \ref{prob:ee18btech11005_python} to verify your solution by choosing two different values of $k$.
-
-\solution 
-The following code 
-%
-\begin{lstlisting}
-codes/ee18btech11008/ee18btech11008.py
-\end{lstlisting}
-%
-provides the necessary soution.
-
 For a system to be stable all coefficients of characteristic equation should lie on left half of s-plane because if any of the pole is in right half of the s-plane then there will be a component which is exponentially increasing in output,causing system to be unstable.This can be verified by Routh Array Criterion.
 
 
@@ -87,6 +75,18 @@ s3=-1.41627+0.55075i
 \begin{align}
 s4=-1.41627-0.55075i
 \end{align}
+
+\item Modify the Python code in Problem \ref{prob:ee18btech11005_python} to verify your solution by choosing two different values of $k$.
+
+\solution 
+The following code 
+%
+\begin{lstlisting}
+codes/ee18btech11008/ee18btech11008.py
+\end{lstlisting}
+%
+provides the necessary soution.
+
 
 \end{enumerate}
 
