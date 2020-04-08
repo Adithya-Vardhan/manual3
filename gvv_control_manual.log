@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.7)  8 APR 2020 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.7)  8 APR 2020 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,9 +1365,6 @@ Package rerunfilecheck Info: File `gvv_control_manual.out' has not changed.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
