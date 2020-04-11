@@ -5,8 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def Stability(k_values):
-	for k in k_values:
+def Stability(k):
 		p = np.poly1d([1,3,3,1,k])     # enter the coefficients of characteristic polynomial
 
 		c = p.c	 
@@ -40,7 +39,10 @@ def Stability(k_values):
 			print("SYSTEM IS UNSTABLE")
 		elif(count == 0):
 			print("SYSTEM IS STABLE")
+k=[0.5,3]			
+for i in range(2):
+	print('k=',k[i])
+	Stability(k[i])
+	
 
-k_values = [0.5,3]			
-Stability(k_values)
 

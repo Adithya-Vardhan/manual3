@@ -12,7 +12,7 @@ Find the condition for the system to be BIBO stable using the Routh Array.
 \nabla(s)=s^4+3s^3+3s^2+s+k=0
 \end{align}
 
-The Routh hurwitz criterion:-
+The Routh hurwitz criterion:-The number of roots of the polynomial that are in the right half-plane is equal to the number of sign changes in the first column.
 \bigskip
 \begin{align}
 \mydet{s^4\\s^3\\s^2\\s^1 \\ s^0}
@@ -57,7 +57,9 @@ codes/ee18btech11008/ee18btech11008.py
 \end{lstlisting}
 %
 provides the necessary soution.
-
-
+\begin{itemize}
+  \item In first case,k=0.5 which is in the range of $(0,\dfrac{8}{9})$ has no sign changes in first column of its routh array.So the system is stable.
+  \item In second case,k=3 which is not in the range of $(0,\dfrac{8}{9})$ has 2 sign changes in first column of its routh array.So the system is unstable.
+  \end{itemize}
 \end{enumerate}
 
