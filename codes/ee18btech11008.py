@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 
 def Stability(k):
 		p = np.poly1d([1,3,3,1,k])     # enter the coefficients of characteristic polynomial
-
+       
 		c = p.c	 
 		#s = p.r                      #uncomment this line if u want to know the roots of characteritics equation
-		r = np.zeros((len(c),len(c)-1))                   #initiating the routh array
+		r = np.zeros((len(c),len(c)))                   #initiating the routh array
 		try:
-			for i in range(len(r[1])):
+			for i in range(len(r[0])):
 				r[0][i] = c[2*i]       #filling the first row
 		except IndexError:
 			print("calculating...")
@@ -34,15 +34,15 @@ def Stability(k):
 					count = count + 2            #counting the number of sign changes
 		print("routh array = ")
 		print(r)
-		print("NUMBER OF SIGN CHANGES IN ROUTH ARRAY = ",count)	
+		print("NUMBER OF SIGN CHANGES IN ROUTH ARRAY =%d "%count)	
 		if(count > 0):
 			print("SYSTEM IS UNSTABLE")
 		elif(count == 0):
 			print("SYSTEM IS STABLE")
 k=[0.5,3]			
 for i in range(2):
-	print('k=',k[i])
-	Stability(k[i])
+	print("k=%d"%k[i])
+	Stability(k[i]) 
 	
 
 
