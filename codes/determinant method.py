@@ -30,9 +30,9 @@ def Stability(k):
 		DET=np.zeros(len(c)-1)
 		for i in range(len(c)-1):
 			m=r[0:i+1,0:i+1]
-			print("DET(%d)=%s"%(i,m))
+			print("DET(%d)=%s"%(i+1,m))
 			DET[i]=np.linalg.det(m)
-			print("DET(%d)=%s"%(i,DET[i]))
+			print("DET(%d)=%s"%(i+1,DET[i]))
 		if(min(DET)>0):
 			print("system is stable")
 		else:
